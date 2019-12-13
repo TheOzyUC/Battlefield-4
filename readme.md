@@ -7,7 +7,6 @@ A file for checking the version of the cheat for Battlefield 4, a "crutch" to tu
 
 Simple code:
 
-
     Version current = Assembly.GetExecutingAssembly().GetName().Version;
                 WebClient check = new WebClient();
                 Version latest = new Version(check.DownloadString("https://raw.githubusercontent.com/TheOzyUC/Battlefield-4/master/textfile.txt"));
